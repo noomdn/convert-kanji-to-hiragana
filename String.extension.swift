@@ -1,5 +1,5 @@
 //
-//  String.Extension.swift
+//  String.extension.swift
 //  Dictionary
 //
 //  Created by NoomDN on 10/12/2561 BE.
