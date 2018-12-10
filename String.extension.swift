@@ -9,7 +9,7 @@
 import Foundation
 
 extension String {
-    func covertKanjiToHiragana() -> String {
+    func convertKanjiToHiragana() -> String {
         let input = self.trimmingCharacters(in: .whitespaces)
         var output = ""
         let local = CFLocaleCreate(kCFAllocatorDefault, CFLocaleCreateCanonicalLanguageIdentifierFromString(kCFAllocatorDefault, "ja" as CFString) )
